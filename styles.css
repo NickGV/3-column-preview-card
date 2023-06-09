@@ -104,17 +104,16 @@ button:hover{
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
-
+    
     .attribution{
-        position: absolute;
-        bottom: -70%;
-        right: 30%;
+        z-index: 1;
     }
 }
 
 @media screen and (max-width: 600px) {
     .container{
         width: 360px;
+        height: 1450px;
     }
 
     .sedans-container{
